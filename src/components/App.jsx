@@ -1,10 +1,13 @@
 import React from "react";
+import Header from "./Header";
+import Body from "./Body";
 
 function App(){
   return (
     <div>
-      <h1>React Boilerplate</h1>
+      <Header/>
       <hr/>
+      <Body/>
     </div>
   );
 }
