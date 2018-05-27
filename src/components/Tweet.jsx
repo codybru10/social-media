@@ -1,31 +1,67 @@
 import React from "react";
+import Box from "./Box";
 
 function Tweet(props) {
 
   var tweetStyle = {
+    backgroundColor: "#ffeaea",
     borderColor: "grey",
     borderStyle: "solid",
     borderWidth: ".5px",
   }
 
   var textStyle = {
+    // display: "inline-block",
+    padding: "4px",
+    marginTop: "0px",
+    marginBottom: "8px"
+  }
+
+  var textPart = {
+    display: "inline-block"
+  }
+
+  var userStyle = {
+    marginTop: "2px",
+    marginBottom: "0px",
     padding: "4px"
   }
 
   return (
     <div>
+
       <div style={tweetStyle}>
-        <p style={textStyle}> This is my bad ass tweet!</p>
+        <Box/>
+        <div style={textPart}>
+          <h6 style={userStyle}>User Name</h6>
+          <p style={textStyle}> This is my bad ass tweet!</p>
+        </div>
       </div>
+
       <div style={tweetStyle}>
-        <p style={textStyle}> This is my bad ass tweet, with some more mumbo jumbo because I dont know what to talk about</p>
+        <Box/>
+        <div style={textPart}>
+          <h6 style={userStyle}>User Name</h6>
+          <p style={textStyle}> This is my bad ass tweet!</p>
+        </div>
       </div>
+
       <div style={tweetStyle}>
-        <p style={textStyle}> This is another tweet for demonstration, I am not going to say too much that makes sense because I dont really have anyting to say.</p>
+        <Box/>
+        <div style={textPart}>
+          <h6 style={userStyle}>User Name</h6>
+          <p style={textStyle}> This is my bad ass tweet!</p>
+        </div>
       </div>
+
       <div style={tweetStyle}>
-        <p style={textStyle}> This is my first tweet, woah</p>
+        <Box/>
+        <div style={textPart}>
+          <h6 style={userStyle}>User Name</h6>
+          <p style={textStyle}> This is my bad ass tweet!</p>
+        </div>
       </div>
+
     </div>
   );
 }

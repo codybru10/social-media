@@ -6,7 +6,7 @@ function Feed(props) {
 
   var feed = {
     width: '280px',
-    height: '500px',
+    height: '900px',
     borderStyle: "solid",
     borderWidth: "2px"
   }

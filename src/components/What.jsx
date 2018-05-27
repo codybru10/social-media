@@ -1,4 +1,5 @@
 import React from "react";
+import Box from "./Box"
 
 function What(props) {
 
@@ -32,8 +33,7 @@ function What(props) {
   return (
     <div>
       <div style={whatStyle}>
-        <div style={boxStyle}>
-        </div>
+        <Box/>
         <input style={inputStyle} placeholder="Whats happening..."/>
       </div>
     </div>
