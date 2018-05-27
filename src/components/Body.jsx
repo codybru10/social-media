@@ -1,11 +1,11 @@
 import React from "react";
-import Profile from "./Profile"
+import Columns from "./Columns"
 
 function Body(props) {
 
   return (
     <div>
-      <Profile/>
+      <Columns/>
     </div>
   );
 }
